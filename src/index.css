@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: crimson;
+  margin: 0;
+}
+h2{
+  background: crimson;
+  padding: 18px;
+  color: black;
+}
+.App{
+  padding: 30px;
+  background:white;
+width: 80%;
+margin: 50px auto ;
+box-shadow: teal;
+
+}
+input{
+  width: 80%;
+  border: 0;
+  padding: 6px 10px;
+  background: rgb(241, 236, 236);
+}
+button{
+  border: 0;
+  width: 20%;
+  cursor: pointer;
+  background: greenyellow;
+  padding: 6px 0;
+  margin: 0;
+  outline-style: groove;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin: 15px 0;
+}
+li span{
+  display: inline-block;
+  width: 60%;
+  color: cornflowerblue;
+}
+li> button:first-of-type{
+width: 19%;
+margin-right: 1%;
+background: rgb(87, 85, 81);
+color: whitesmoke;
+}
+li> button:last-of-type{
+  background: tomato;
+  color: aliceblue;
+}
+ul form{
+  margin: 15px 0;
+}
+p{
+  color: red;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
