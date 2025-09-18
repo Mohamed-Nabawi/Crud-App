@@ -6,15 +6,11 @@ pipeline {
         APP_NAME = 'react-crud-app'
         IMAGE_NAME = 'nabawi/react-crud-app'
     }
+tools {
+    nodejs "NodeJS-18"   // match the name you configured in Manage Jenkins
+}
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    credentialsId: 'github-cred',   // 👈 Use your GitHub Jenkins credential ID
-                    url: 'https://github.com/Mohamed-Nabawi/Crud-App.git'
-            }
-        }
 
         stage('Install Dependencies') {
             steps {
