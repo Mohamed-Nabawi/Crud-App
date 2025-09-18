@@ -46,9 +46,6 @@ tools {
         }
 
         stage('Push to Docker Hub') {
-            when {
-                expression { return params.PUSH_TO_DOCKERHUB == true }
-            }
             steps {
                 script {
                     def imageTag = "${IMAGE_NAME}:${env.BUILD_NUMBER}"
