@@ -7,7 +7,7 @@ pipeline {
         IMAGE_NAME = 'nabawi/react-crud-app'
     }
 tools {
-    nodejs "NodeJS-18"   // match the name you configured in Manage Jenkins
+    nodejs "NodeJS-16"   // match the name you configured in Manage Jenkins
 }
 
     stages {
