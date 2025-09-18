@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         APP_NAME = 'react-crud-app'
-        IMAGE_NAME = 'nabawi/react-crud-app'
+        IMAGE_NAME = 'nabawi/aser'
     }
 tools {
     nodejs "NodeJS-16"   // match the name you configured in Manage Jenkins
